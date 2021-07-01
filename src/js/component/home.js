@@ -36,11 +36,13 @@ export class Home extends React.Component {
 	}
 
 	handleDelete(task) {
+		console.log(task);
 		let filteredTasks = this.state.tasks.filter(currentTask => {
 			if (currentTask !== task) {
 				return currentTask;
 			}
 		});
+		console.log(filteredTasks);
 		this.setState({
 			tasks: filteredTasks
 		});
