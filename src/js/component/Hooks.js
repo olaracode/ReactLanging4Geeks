@@ -16,7 +16,7 @@ export function Hooks() {
 
 	// Manejando Añadir tareas onKeyPress
 	let handleAddTask = e => {
-		if (e.key === "13" && newTask.length > 4) {
+		if (e.keyCode === 13 && newTask.length > 4) {
 			console.log("funciona?");
 			setTasks([...tasks, newTask]);
 			setNewTask("");
