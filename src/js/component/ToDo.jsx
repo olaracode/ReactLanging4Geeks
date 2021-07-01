@@ -1,6 +1,6 @@
 import React from "react";
 //create your first component
-export class Home extends React.Component {
+export default class ToDo extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -51,9 +51,6 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<>
-				<div className="text-center mt-5">
-					<h2>To-Do List</h2>
-				</div>
 				<div className="container">
 					<div className="card">
 						<div className="card-body">

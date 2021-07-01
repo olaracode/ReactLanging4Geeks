@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export function Hooks() {
+export default function Hooks() {
 	const [tasks, setTasks] = useState([
 		"Realizar todo List",
 		"Todo-List con Clases",
@@ -42,9 +42,6 @@ export function Hooks() {
 	};
 	return (
 		<>
-			<div className="text-center mt-5">
-				<h2>To-Do List</h2>
-			</div>
 			<div className="container">
 				<div className="card">
 					<div className="card-body">

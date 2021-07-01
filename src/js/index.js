@@ -9,7 +9,7 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import { Hooks } from "./component/Hooks.js";
+import { Main } from "./component/Main.jsx";
 
 //render your react application
-ReactDOM.render(<Hooks />, document.querySelector("#app"));
+ReactDOM.render(<Main />, document.querySelector("#app"));
